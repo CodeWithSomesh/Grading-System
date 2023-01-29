@@ -2,7 +2,7 @@
 Python Grading System 
 ----------------------------------------------------
 
-## Description of the Problem
+## 📄Description of the Problem
 
 Write a program to allow the academic staff to enter the coursework marks and final marks for 
 the students. The program reads scores in three categories: test, assignments and final. Each 
@@ -60,14 +60,14 @@ You should handle the following two special cases of input:
 
 </br>
 
- A student can receive extra credit on an individual assignment, but the total points for 
+⭐ A student can receive extra credit on an individual assignment, but the total points for 
 homework are capped at the maximum possible. For example, a student can receive a 
 score of 22/20 on one homework assignment, but if their total homework score for all 
 assignments is 63/60, this score should be capped at 60/60. Section points are capped at 34.
 
 </br>
 
- Cap exam scores at 100. If the raw or shifted exam score exceeds 100, a score of 100 is 
+⭐ Cap exam scores at 100. If the raw or shifted exam score exceeds 100, a score of 100 is 
 used.
 
 </br>
