@@ -9,7 +9,7 @@ the students. The program reads scores in three categories: test, assignments an
 category is weighted: its points are scaled up to a fraction of the 100 percent grade for the 
 course. As the program begins reading each category, it first prompts for the category's weight.
 
-<br\>
+</br>
 
 The user begins by entering student id and name follows by the scores earned on test. The 
 program asks whether test scores were shifted, interpreting an answer of 1 to mean “yes” and 
