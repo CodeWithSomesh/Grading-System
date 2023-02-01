@@ -78,7 +78,7 @@ def weightageValidation(test, finalExam, assignment):
 def scoreEarned():
     # Initialize variables
     valid = True
-    testScore = 0
+    testScore = 0.00
 
     # Ask user for Test Score
     # Validate input
@@ -86,7 +86,7 @@ def scoreEarned():
         testScore = input("Test Score: ")
         if testScore.isnumeric():
             testScore = int(testScore)
-            if 0 <= testScore <= 100:
+            if 0 <= testScore <= 100.00:
                 return testScore
             else:
                 print("Invalid Score, Please Key In The Correct Test Score.")
@@ -120,7 +120,7 @@ def wereScoreShifted():
 def shiftedScoreAmount(scoreShift):
     # Initialize Variables
     valid = True
-    shiftedAmount = 0
+    shiftedAmount = 0.00
 
     # Ask user for Shift Amount
     # Validate input
@@ -129,7 +129,7 @@ def shiftedScoreAmount(scoreShift):
             shiftedAmount = input("Shift Amount: ")
             if shiftedAmount.isnumeric():
                 shiftedAmount = int(shiftedAmount)
-                if 1 <= shiftedAmount <= 100:
+                if 1.00 <= shiftedAmount <= 100.00:
                     return shiftedAmount
                 else:
                     print("Invalid Input, Please Enter The Correct Amount")
@@ -143,7 +143,7 @@ def shiftedScoreAmount(scoreShift):
 
 def totalPoints(scorePoints, shiftedScore, shiftedAmount):
     # Initialize Variables
-    totalPoints = 0
+    totalPoints = 0.00
 
     # Calculate Total Points
     totalPoints = scorePoints + shiftedAmount
@@ -156,8 +156,8 @@ def totalPoints(scorePoints, shiftedScore, shiftedAmount):
     # If Score is Not Shifted
     else:
         # Validate totalPoints to make sure it caps at 100 points
-        if totalPoints > 100:
-            totalPoints = 100
+        if totalPoints > 100.00:
+            totalPoints = 100.00
             print(f"Total Points = {totalPoints}/100")
         else:
             # Print Total Points
@@ -199,11 +199,11 @@ def assignmentNum():
 
 def totalAssignmentMarks(numOfAssigments):
     # Initialize Variables
-    assignmentScore = 0
+    assignmentScore = 0.00
     assignmentMax = 0
-    totalAssignmentScore = 0
+    totalAssignmentScore = 0.00
     totalAssignmentMax = 0
-    totalAssignmentMarks = 0
+    totalAssignmentMarks = 0.00
 
     # Ask user for the Score of Each Assignment
     for i in range(1, numOfAssigments + 1):
