@@ -1,5 +1,5 @@
 # Grading-System
-Python Grading System 
+Python Grading System (College Assignment)
 ----------------------------------------------------
 
 ## 📄Description of the Problem
